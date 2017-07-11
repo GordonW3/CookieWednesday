@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cookie Wednesday</title>
+  <link rel="stylesheet" type="text/css" href="cookie_gallery.css">
+
+  <!-- <script src="cookie_wednesday.js"></script> -->
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript">
+       $(document).ready(function() {
+       $('.slider').slider({
+          interval: 5000,
+          transition: 600,
+          height: 600,
+          });
+       $('.materialboxed').materialbox();
+       });
+    </script>
+</head>
+<body>
+  <div id="container">
+    <div class="header">
+      <h1>Placeholder for the header</h1>
+
+    </div>
+    <div class="content">
+    	<h4 id="gallery_title">The Gallery</h4>
+      <div class="slider" id="slidesandstuff">
+        <ul class="slides">
+          <li>
+            <img class="materialboxed" src="Send/gallery1.jpg">
+          </li>
+          <li>
+            <img class="materialboxed" width="650" src="Send/gallery2.jpg">
+          </li>
+          <li>
+            <img class="materialboxed" width="650" src="Send/gallery3.jpg">
+          </li>
+          <li>
+            <img class="materialboxed" width="650" src="Send/gallery4.jpg">
+          </li>
+          <li>
+            <img class="materialboxed" width="650" src="Send/gallery5.jpg">
+          </li>
+        </ul>
+      </div>
+      <div class="after_word">
+        <p>Check out some of my recent creations!</p>
+        <p>Looking for more? Check out my <a href="#">Instagram</a> feed to see all the latest and greatest.</p>
+      </div>
+    </div>
+  	  
+  </div>
+    <footer>
+    	<img src="send/ribbonbottom.png">
+    </footer>
+</body>
+</html>
