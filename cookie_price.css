@@ -1,5 +1,9 @@
-body {
-	background-color: pink;
+*{
+	color: #723723;
+}
+
+#background_pink{
+	background-color: #c6639a;
 }
 
 #gallery_title {
@@ -19,8 +23,66 @@ body {
 	height: 100%;
 }
 
+#mast-head {
+	width: 100%;
+	border: 1px dashed red;
+}
+.main_photo{
+	height: 200px;
+	width: 200px;
+	z-index: 3;
+	position: absolute;
+	left: 40%;
+	top: 20px;
+}
+
+.home_ribbon_and_links{
+	display: inline-block;
+	background: url("send/ribbontop.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 95px;
+ 	margin-left: 10%;
+  margin-top: 40px;
+  top: 50px;
+  position: relative;
+  z-index: 2;
+}
+.links a{
+	margin-top: 3%;
+	font-size: 25px;
+	margin-left: 5%;
+	color: #723723;
+}
+
+#links_right {
+	margin-right: 10%;
+}
+
+#links_right a{
+	float: right;
+	border: 1px dashed green;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#links_left {
+	margin-left: 5%;
+}
+
+#links_left a{
+	float: left;
+	border: 1px dashed red;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
 .content {
-	background-color: yellow;
+	background-color: #fff4ea;
 	border-right: 1px dashed black;
 	border-left: 1px dashed black;
 	padding-top: 40px;

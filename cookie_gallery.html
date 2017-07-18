@@ -22,46 +22,66 @@
           transition: 600,
           height: 600,
           });
-       $('.materialboxed').materialbox();
        });
     </script>
 </head>
 <body>
-  <div id="container">
-    <div class="header">
-      <h1>Placeholder for the header</h1>
-
-    </div>
-    <div class="content">
-    	<h4 id="gallery_title">The Gallery</h4>
-      <div class="slider" id="slidesandstuff">
-        <ul class="slides">
-          <li>
-            <img class="materialboxed" src="Send/gallery1.jpg">
-          </li>
-          <li>
-            <img class="materialboxed" width="650" src="Send/gallery2.jpg">
-          </li>
-          <li>
-            <img class="materialboxed" width="650" src="Send/gallery3.jpg">
-          </li>
-          <li>
-            <img class="materialboxed" width="650" src="Send/gallery4.jpg">
-          </li>
-          <li>
-            <img class="materialboxed" width="650" src="Send/gallery5.jpg">
-          </li>
-        </ul>
+  <div id="background_pink">
+  <header>
+      <div class="header">
+        <div id="mast-head">
+          <div class="home_ribbon_and_links">
+        <!-- <img src="send/ribbontop.png" class="ribbon_top"> -->
+            <div class="links">
+              <div id="links_left">
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+              </div>
+              <div class="main_photo">
+                <img src="send/cookiewed.png" class="main_photo">
+              </div>
+              <div id="links_right">
+                <a href="#">Contact</a>
+                <a href="#">Pricing</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="after_word">
-        <p>Check out some of my recent creations!</p>
-        <p>Looking for more? Check out my <a href="#">Instagram</a> feed to see all the latest and greatest.</p>
+    </header>
+    <div id="container">
+      <div class="content">
+      	<h4 id="gallery_title">The Gallery</h4>
+        <div class="slider-sizer">
+        <div class="slider responsive-image" id="slidesandstuff">
+          <ul class="slides">
+            <li>
+              <img class="responsive-image" src="Send/gallery1.jpg">
+            </li>
+            <li>
+              <img class="responsive-image" src="Send/gallery2.jpg">
+            </li>
+            <li>
+              <img class="responsive-image" src="Send/gallery3.jpg">
+            </li>
+            <li>
+              <img class="responsive-image" src="Send/gallery4.jpg">
+            </li>
+            <li>
+              <img class="responsive-image" src="Send/gallery5.jpg">
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="after_word">
+          <p>Check out some of my recent creations!</p>
+          <p>Looking for more? Check out my <a href="#">Instagram</a> feed to see all the latest and greatest.</p>
+        </div>
       </div>
     </div>
-  	  
-  </div>
     <footer>
     	<img src="send/ribbonbottom.png">
     </footer>
+  </div>
 </body>
 </html>

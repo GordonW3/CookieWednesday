@@ -1,6 +1,78 @@
-body {
-	background-color: pink;
+*{
+	color: #723723;
 }
+
+#background_pink{
+	background-color: #c6639a;
+}
+
+/*beginning of nav bar styling*/
+#container {
+	width: 70%;
+	height: 100%;
+	position:relative;
+	align-content: center;
+	margin: auto;
+}
+#mast-head {
+	width: 100%;
+	border: 1px dashed red;
+}
+.main_photo{
+	height: 200px;
+	width: 200px;
+	z-index: 3;
+	position: absolute;
+	left: 40%;
+	top: 20px;
+}
+
+.home_ribbon_and_links{
+	display: inline-block;
+	background: url("send/ribbontop.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 95px;
+ 	margin-left: 10%;
+  margin-top: 40px;
+  top: 50px;
+  position: relative;
+  z-index: 2;
+}
+.links a{
+	margin-top: 3%;
+	font-size: 25px;
+	margin-left: 5%;
+	color: #723723;
+}
+
+#links_right {
+	margin-right: 10%;
+}
+
+#links_right a{
+	float: right;
+	border: 1px dashed green;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#links_left {
+	margin-left: 5%;
+}
+
+#links_left a{
+	float: left;
+	border: 1px dashed red;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+/*end of nav bar styling*/
 
 #gallery_title {
 	margin-left: 60px;
@@ -20,7 +92,7 @@ body {
 }
 
 .content {
-	background-color: yellow;
+	background-color: #fff4ea;
 	border-right: 1px dashed black;
 	border-left: 1px dashed black;
 	padding-top: 40px;
@@ -30,14 +102,29 @@ body {
 	margin-bottom: 0px;
 }
 
-#slidesandstuff {
+.slider-sizer {
 	width: 90%;
+	margin: auto;
+	height: auto;
+}
+
+.slider .slides {
+	background-color: transparent;
+	margin: 0;
+}
+
+#slidesandstuff {
+	/*width: 90%;*/
+	/*height: 100%;*/
 	margin: auto;
 }
 
-#slidesandstuff li img{
-	background-position: top;
-	background-size: 100%, 100%, cover;
+#slidesandstuff li img {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 
 .after_word {
